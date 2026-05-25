@@ -1,0 +1,255 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                 GUÍA RÁPIDA DE EJECUCIÓN - BIBLIOTECA UNIVERSITARIA        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+ALUMNO: Kevin Isaac Figueroa Calderón
+CARNÉ: FC260104
+REPOSITORIO: https://github.com/kevin-figueroa10/DesafioFinal_FC260104
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 CONTENIDO DEL REPOSITORIO:
+═══════════════════════════════════════════════════════════════════════════════
+
+Proyecto_final/          → Versión Manual (Arquitectura en capas)
+Proyecto_IA/             → Versión Generada por IA (Código consolidado)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 EJECUTAR PROYECTO FINAL (VERSIÓN MANUAL):
+═══════════════════════════════════════════════════════════════════════════════
+
+Opción 1 - Línea de comandos:
+────────────────────────────
+cd "C:\Users\figue\source\repos\Proyecto_final\Proyecto_final"
+dotnet run
+
+Opción 2 - Visual Studio:
+────────────────────────
+1. Abrir proyecto en Visual Studio
+2. Hacer clic derecho en "Proyecto_final" → "Establecer como Proyecto de inicio"
+3. Presionar F5
+
+Opción 3 - Compilar ejecutable:
+──────────────────────────────
+cd "C:\Users\figue\source\repos\Proyecto_final\Proyecto_final"
+dotnet build -c Release
+.\bin\Release\net10.0\Proyecto_final.exe
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 EJECUTAR PROYECTO IA (VERSIÓN GENERADA POR IA):
+═══════════════════════════════════════════════════════════════════════════════
+
+Opción 1 - Línea de comandos (RECOMENDADO):
+────────────────────────────────────────────
+cd "C:\Users\figue\source\repos\Proyecto_final\Proyecto_IA"
+dotnet run
+
+Opción 2 - Visual Studio:
+────────────────────────
+1. Abrir proyecto en Visual Studio
+2. Hacer clic derecho en "BibliotecaUniversitariaIA" → "Establecer como Proyecto de inicio"
+3. Presionar F5
+
+Opción 3 - Compilar ejecutable:
+──────────────────────────────
+cd "C:\Users\figue\source\repos\Proyecto_final\Proyecto_IA"
+dotnet build -c Release
+.\bin\Release\net10.0\BibliotecaUniversitariaIA.exe
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📁 ESTRUCTURA DE PROYECTOS:
+═══════════════════════════════════════════════════════════════════════════════
+
+PROYECTO FINAL:
+───────────────
+Proyecto_final/
+├── Models/              (Clases de datos: Libro, Usuario, Prestamo)
+├── Services/            (Lógica de negocio)
+├── Data/                (Acceso a datos: FileManager)
+├── UI/                  (Menú interactivo)
+├── Utilidades/          (Validadores y helpers)
+├── Data_Files/          (Archivos CSV y TXT)
+├── Program.cs           (Punto de entrada)
+└── Proyecto_final.csproj
+
+PROYECTO IA:
+────────────
+Proyecto_IA/
+├── codigo_generado.cs   (TODA la lógica en UN archivo)
+├── Program.cs           (Inicialización)
+├── Data/                (Archivos CSV y TXT)
+├── BibliotecaUniversitariaIA.csproj
+├── README.md
+└── .gitignore
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 FUNCIONALIDADES DISPONIBLES EN AMBAS VERSIONES:
+═══════════════════════════════════════════════════════════════════════════════
+
+✓ GESTIÓN DE LIBROS
+  • Crear nuevo libro
+  • Listar libros disponibles
+  • Buscar libro por título o autor
+  • Actualizar información del libro
+  • Eliminar libro
+
+✓ GESTIÓN DE USUARIOS
+  • Registrar nuevo usuario
+  • Listar todos los usuarios
+  • Buscar usuario por carné
+  • Activar/Desactivar usuario
+
+✓ GESTIÓN DE PRÉSTAMOS
+  • Realizar préstamo de libro
+  • Devolver libro prestado
+  • Listar todos los préstamos
+  • Ver préstamos activos
+  • Ver préstamos por usuario
+
+✓ VALIDACIONES
+  • Email válido
+  • Carné único y válido
+  • ISBN único
+  • Disponibilidad de libros
+  • Usuario activo
+  • Máximo de préstamos por usuario
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔍 ARCHIVOS DE DATOS:
+═══════════════════════════════════════════════════════════════════════════════
+
+Los siguientes archivos contienen datos de prueba:
+
+libros.csv:
+───────────
+ID|Título|Autor|ISBN|Año|Disponibles|Prestados
+1|Cien años de soledad|García Márquez|978-1234567890|1967|3|0
+2|Don Quijote|Cervantes|978-0987654321|1605|2|1
+3|1984|George Orwell|978-1122334455|1949|1|2
+4|El Principito|Antoine de Saint-Exupéry|978-5566778899|1943|4|0
+5|La Metamorfosis|Kafka|978-1010121314|1915|2|1
+
+usuarios.txt:
+─────────────
+Carné|Nombre|Carrera|Email|Teléfono|Activo
+12345678|Juan Perez Garcia|Ingenieria en Sistemas|juan.perez@universidad.edu.sv|77123456|True
+87654321|Maria Lopez Rodriguez|Contabilidad|maria.lopez@universidad.edu.sv|77987654|True
+24680135|Carlos Mendoza Ruiz|Administracion de Empresas|carlos.mendoza@universidad.edu.sv|77456789|True
+13579246|Ana Martinez Flores|Derecho|ana.martinez@universidad.edu.sv|77654321|True
+98765432|Roberto Sanchez Vega|Ingenieria Civil|roberto.sanchez@universidad.edu.sv|77321098|True
+
+prestamos.txt:
+──────────────
+ID|UsuarioCarné|LibroID|FechaPréstamo|FechaDevolución
+1|12345678|2|2025-01-15|
+2|87654321|3|2025-01-10|2025-01-25
+
+═══════════════════════════════════════════════════════════════════════════════
+
+❓ SOLUCIÓN DE PROBLEMAS:
+═══════════════════════════════════════════════════════════════════════════════
+
+Problema: "No se encuentra .NET 10"
+Solución: Instalar .NET 10 SDK desde https://dotnet.microsoft.com/download
+
+Problema: "El comando no se reconoce"
+Solución: Reiniciar PowerShell o terminal después de instalar .NET
+
+Problema: "No encuentra los archivos de datos"
+Solución: Asegurarse de ejecutar desde la carpeta correcta del proyecto
+
+Problema: "Error al cargar usuarios.txt"
+Solución: Verificar que los valores booleanos sean "True" o "False" (mayúsculas)
+
+Problema: "Múltiples proyectos encontrados"
+Solución: Navegar específicamente a Proyecto_final\ o Proyecto_IA\ y ejecutar
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📚 DOCUMENTACIÓN DISPONIBLE:
+═══════════════════════════════════════════════════════════════════════════════
+
+DOCUMENTACION_PROYECTOS.md
+  → Descripción completa de ambas versiones
+  → Comparación de arquitecturas
+  → Instrucciones detalladas de ejecución
+
+PROMPTS_GENERACION_IA.txt
+  → Los prompts exactos usados para generar la versión IA
+  → Explicación del proceso de generación
+  → Evaluación según rúbrica
+
+README_ESTRUCTURA.md
+  → Estructura del repositorio
+  → Información del autor
+  → Detalles técnicos
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔧 REQUISITOS DEL SISTEMA:
+═══════════════════════════════════════════════════════════════════════════════
+
+• .NET 10 SDK (versión más reciente)
+• C# 14 o superior
+• Windows 10/11 (recomendado)
+• PowerShell 5.0 o PowerShell Core
+• Visual Studio 2026 (opcional, pero recomendado)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ℹ️ DIFERENCIAS CLAVE ENTRE VERSIONES:
+═══════════════════════════════════════════════════════════════════════════════
+
+PROYECTO FINAL (MANUAL):
+─────────────────────────
+✓ Arquitectura profesional en capas
+✓ Código organizado en múltiples archivos
+✓ Fácil de mantener y extender
+✓ Sigue patrones empresariales
+✓ Ideal para aprender arquitectura
+
+PROYECTO IA:
+──────────────
+✓ Código consolidado en 1 archivo
+✓ Generado completamente por IA
+✓ Más compacto y simple
+✓ Funcionalidad idéntica
+✓ Demostrativo de capacidades de IA
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ CHECKLIST ANTES DE ENTREGAR:
+═══════════════════════════════════════════════════════════════════════════════
+
+□ Ambos proyectos compilan sin errores
+□ Ambos proyectos ejecutan exitosamente
+□ Archivos de datos cargan correctamente
+□ Todas las funcionalidades operan correctamente
+□ Documentación completa incluida
+□ Prompts de IA documentados
+□ Código subido a GitHub
+□ Commits descriptivos en español
+□ README actualizado
+□ .gitignore configurado
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📞 CONTACTO DEL DESARROLLADOR:
+═══════════════════════════════════════════════════════════════════════════════
+
+Nombre:     Kevin Isaac Figueroa Calderón
+Carné:      FC260104
+GitHub:     https://github.com/kevin-figueroa10
+Repositorio: DesafioFinal_FC260104
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Última actualización: 2025
+Versión: 1.0
+
+═══════════════════════════════════════════════════════════════════════════════
