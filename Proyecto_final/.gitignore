@@ -38,3 +38,8 @@ Thumbs.db
 *.exe
 *.pdb
 
+# Solution files
+*.slnx
+*.sln
+Proyecto_final.slnx
+
