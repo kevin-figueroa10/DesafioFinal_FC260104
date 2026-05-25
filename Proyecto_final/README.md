@@ -1,7 +1,7 @@
 # Sistema Integral de Gestión de Biblioteca Universitaria
 
 ## Información del Estudiante
-- **Carné**: [Ingresa tu carné aquí]
+- **Carné**: CM210345 / BH160107 (actualiza con tus datos)
 - **Nombre Completo**: [Ingresa tu nombre aquí]
 
 ## Descripción del Proyecto
