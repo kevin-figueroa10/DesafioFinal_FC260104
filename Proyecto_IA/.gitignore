@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+.vs/
+
+# Visual Studio cache/options
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project files
+*.csproj.user
+*.sln.user
+
+# Runtime files
+*.dll
+*.exe
+*.pdb
