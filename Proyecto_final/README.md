@@ -93,11 +93,30 @@ El sistema incluye datos precargados para demostración:
 [Enlace al video demostrativo: https://youtu.be/tu-video-aqui]
 *Nota: Actualiza el enlace con el URL de tu video demostrativo en YouTube*
 
+## 🤖 VERSIÓN CON INTELIGENCIA ARTIFICIAL
+
+Este proyecto también incluye una segunda versión completamente generada con herramientas de IA:
+
+### Archivos de IA Incluidos:
+1. **prompt_utilizado.txt** - Prompt exacto ingresado a la herramienta de IA
+2. **codigo_generado.cs** - 1185 líneas de código C# generadas por IA en un único archivo
+3. **evidencia_funcionamiento.txt** - Documentación completa de la versión IA
+
+La versión IA implementa todas las características del sistema en un solo archivo consolidado, compilable y completamente funcional.
+
+## 📚 Documentación Adicional
+
+- **README.md** (este archivo) - Instrucciones principales
+- **RESUMEN_ENTREGA.md** - Resumen completo del proyecto y requisitos
+- **ESTADO_FINAL.txt** - Estado final con checklist de requisitos
+- **INSTRUCCIONES_GIT_PUSH.md** - Instrucciones para subir a repositorio remoto
+
 ## Notas Adicionales
 - Todos los datos se persisten en archivos en la carpeta `Data/`
 - Las validaciones aseguran integridad de datos
 - La interfaz utiliza caracteres Unicode para tablas profesionales
 - El sistema implementa separación de responsabilidades y buenas prácticas de programación
+- Incluye dos versiones: manual (código original) e IA (código generado)
 
 ## Licencia
 Proyecto de educación universitaria - 2026
