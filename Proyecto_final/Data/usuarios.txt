@@ -1,0 +1,5 @@
+12345678|Juan Perez Garcia|Ingenieria en Sistemas|juan.perez@universidad.edu.sv|77123456|activo
+87654321|Maria Lopez Rodriguez|Contabilidad|maria.lopez@universidad.edu.sv|77987654|activo
+24680135|Carlos Mendoza Ruiz|Administracion de Empresas|carlos.mendoza@universidad.edu.sv|77456789|activo
+13579246|Ana Martinez Flores|Derecho|ana.martinez@universidad.edu.sv|77654321|activo
+98765432|Roberto Sanchez Vega|Ingenieria Civil|roberto.sanchez@universidad.edu.sv|77321098|activo

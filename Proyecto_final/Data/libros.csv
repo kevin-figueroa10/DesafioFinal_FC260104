@@ -1,0 +1,10 @@
+Codigo,Titulo,Autor,Editorial,AnoPublicacion,Categoria,CantidadEjemplares
+LIB00001,El Quijote,Miguel de Cervantes,Planeta,1605,Literatura Clásica,5
+LIB00002,1984,George Orwell,Siglo XXI,1949,Ciencia Ficción,8
+LIB00003,Cien años de soledad,Gabriel García Márquez,Sudamericana,1967,Realismo Mágico,6
+LIB00004,Pride and Prejudice,Jane Austen,Penguin Classics,1813,Romance,4
+LIB00005,The Great Gatsby,F. Scott Fitzgerald,Scribner,1925,Novela Contemporánea,7
+LIB00006,To Kill a Mockingbird,Harper Lee,HarperCollins,1960,Drama,5
+LIB00007,El Príncipe,Nicolás Maquiavelo,Alianza Editorial,1532,Filosofía Política,3
+LIB00008,Cálculo Diferencial,James Stewart,Cengage Learning,2020,Matemáticas,9
+LIB00009,Python para Principiantes,Guido van Rossum,O'Reilly,2021,Informática,10
