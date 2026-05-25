@@ -1,0 +1,51 @@
+PROMPT UTILIZADO PARA GENERAR EL CÓDIGO CON IA
+==============================================
+
+Desarrollar un Sistema Integral de Gestión de Biblioteca Universitaria en C# con .NET 10 que incluya:
+
+REQUERIMIENTOS FUNCIONALES:
+1. Módulo de Gestión de Libros:
+   - Registrar libros con código único (LIBxxxxx), título, autor, editorial, año de publicación, categoría
+   - Buscar libros por código o título
+   - Actualizar cantidad de ejemplares disponibles
+   - Eliminar libros del sistema
+   - Listar todos los libros con formato de tabla profesional
+   - Máximo 10 libros en el sistema
+
+2. Módulo de Gestión de Usuarios:
+   - Registrar usuarios (estudiantes) con carné (8 dígitos), nombre completo, carrera, email, teléfono
+   - Buscar usuarios por carné o nombre
+   - Cambiar estado de usuario (activo/inactivo)
+   - Listar todos los usuarios con formato tabular
+   - Máximo 5 usuarios registrados
+   - Validar que el carné sea única y de 8 dígitos numéricos
+   - Validar que el email sea válido
+
+3. Módulo de Gestión de Préstamos:
+   - Registrar préstamo de libro a usuario activo
+   - Validar que el usuario exista, esté activo y no tenga límite de préstamos excedido
+   - Validar que el libro exista y tenga ejemplares disponibles
+   - Registrar devolución con cálculo automático de días de retraso
+   - Ver préstamos activos del usuario
+   - Ver historial completo de préstamos del usuario
+   - Listar todos los préstamos con estado (activo/devuelto)
+   - Período de préstamo: 14 días
+
+REQUERIMIENTOS TÉCNICOS:
+- Arquitectura en capas: Modelos, Servicios, UI, Persistencia
+- Modelos como structs: Libro, Usuario, Prestamo
+- Validaciones centralizadas en clase ValidatorHelper
+- Persistencia en archivos: libros.csv, usuarios.txt, prestamos.txt
+- Interfaz de consola profesional con tablas Unicode
+- Separación clara de responsabilidades
+- Buenas prácticas de programación C#
+
+ESTRUCTURA REQUERIDA:
+- Proyecto_final/Models/ (Libro.cs, Usuario.cs, Prestamo.cs)
+- Proyecto_final/Services/ (LibroService.cs, UsuarioService.cs, PrestamoService.cs)
+- Proyecto_final/Data/ (FileManager.cs, archivos de datos)
+- Proyecto_final/UI/ (Menu.cs)
+- Proyecto_final/Utilidades/ (ValidatorHelper.cs)
+- Proyecto_final/Program.cs
+
+Implementar con máximas prácticas de desarrollo, código limpio, validaciones robustas y una interfaz profesional.
