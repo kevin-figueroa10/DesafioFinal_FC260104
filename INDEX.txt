@@ -1,0 +1,298 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                 ÍNDICE DE ARCHIVOS Y DOCUMENTACIÓN                          ║
+║              Gestión de Biblioteca Universitaria - Desafío Final            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+ESTUDIANTE: Kevin Isaac Figueroa Calderón | CARNÉ: FC260104
+REPOSITORIO: https://github.com/kevin-figueroa10/DesafioFinal_FC260104
+
+════════════════════════════════════════════════════════════════════════════════
+
+📚 DOCUMENTACIÓN PRINCIPAL (RAÍZ DEL REPOSITORIO):
+════════════════════════════════════════════════════════════════════════════════
+
+┌─ Este archivo (aquí estás)
+├─ INDEX.txt                          ← Navegación de documentación
+│
+├─ ENTREGA_FINAL.txt                  ← ⭐ LECTURA RECOMENDADA
+│  └─ Resumen ejecutivo completo de la entrega
+│  └─ Estado de cumplimiento de rúbrica
+│  └─ Evidencia de funcionamiento
+│  └─ Instrucciones de ejecución
+│
+├─ DOCUMENTACION_PROYECTOS.md          ← DOCUMENTACIÓN TÉCNICA COMPLETA
+│  └─ Descripción completa de ambas versiones
+│  └─ Arquitectura de Proyecto Final (manual en capas)
+│  └─ Arquitectura de Proyecto IA (consolidada)
+│  └─ Cómo ejecutar ambas versiones
+│  └─ Comparación detallada
+│
+├─ PROMPTS_GENERACION_IA.txt           ← PROMPTS Y PROCESO IA
+│  └─ Los 3 prompts exactos usados para generar código IA
+│  └─ Explicación del proceso de generación
+│  └─ Criterios de evaluación según rúbrica
+│  └─ Lecciones aprendidas sobre generación IA
+│
+├─ GUIA_RAPIDA.txt                     ← REFERENCIA RÁPIDA
+│  └─ Comandos de ejecución rápida
+│  └─ Solución de problemas comunes
+│  └─ Checklist de verificación
+│  └─ Requisitos del sistema
+│
+├─ README.md
+│  └─ Información general del repositorio
+│
+└─ README_ESTRUCTURA.md
+   └─ Detalles técnicos de estructura
+
+════════════════════════════════════════════════════════════════════════════════
+
+📂 CARPETAS DE PROYECTOS:
+════════════════════════════════════════════════════════════════════════════════
+
+Proyecto_final/                          ← PROYECTO MANUAL (ARQUITECTURA EN CAPAS)
+├── Models/                              ← Clases de dominio
+├── Services/                            ← Lógica de negocio
+├── Data/                                ← Acceso a datos
+├── UI/                                  ← Menú interactivo
+├── Utilidades/                          ← Validadores y helpers
+├── Data_Files/                          ← Archivos de datos
+├── Program.cs                           ← Punto de entrada
+└── Proyecto_final.csproj                ← Configuración proyecto
+
+Proyecto_IA/                             ← PROYECTO IA (CÓDIGO CONSOLIDADO)
+├── codigo_generado.cs                   ← TODO el código en 1 archivo (1200+ líneas)
+├── Program.cs                           ← Inicialización
+├── Data/                                ← Archivos de datos
+│   ├── libros.csv
+│   ├── usuarios.txt
+│   └── prestamos.txt
+├── BibliotecaUniversitariaIA.csproj     ← Configuración proyecto
+├── README.md                            ← Instrucciones IA
+└── .gitignore                           ← Configuración Git
+
+════════════════════════════════════════════════════════════════════════════════
+
+🗺️ GUÍA DE LECTURA RECOMENDADA:
+════════════════════════════════════════════════════════════════════════════════
+
+OPCIÓN A: SI NECESITAS INFORMACIÓN RÁPIDA
+──────────────────────────────────────────
+1. Lee este archivo (INDEX.txt)
+2. Lee ENTREGA_FINAL.txt (resumen completo)
+3. Lee GUIA_RAPIDA.txt (cómo ejecutar)
+
+OPCIÓN B: SI NECESITAS INFORMACIÓN TÉCNICA COMPLETA
+──────────────────────────────────────────────────
+1. Lee ENTREGA_FINAL.txt (visión general)
+2. Lee DOCUMENTACION_PROYECTOS.md (arquitectura detallada)
+3. Explora el código en Proyecto_final/ y Proyecto_IA/
+
+OPCIÓN C: SI QUIERES ENTENDER EL PROCESO DE IA
+────────────────────────────────────────────────
+1. Lee PROMPTS_GENERACION_IA.txt (prompts y proceso)
+2. Examina codigo_generado.cs en Proyecto_IA/
+3. Compara con el código manual en Proyecto_final/
+
+OPCIÓN D: SI QUIERES EJECUTAR LOS PROYECTOS
+──────────────────────────────────────────
+1. Lee GUIA_RAPIDA.txt (instrucciones rápidas)
+2. Sigue los comandos PowerShell indicados
+3. Consulta la sección de solución de problemas si es necesario
+
+════════════════════════════════════════════════════════════════════════════════
+
+❓ PREGUNTAS FRECUENTES - ¿DÓNDE BUSCAR RESPUESTAS?
+════════════════════════════════════════════════════════════════════════════════
+
+"¿Cómo ejecuto el proyecto?"
+→ GUIA_RAPIDA.txt (sección 🚀 EJECUTAR PROYECTO)
+
+"¿Cuál es la diferencia entre Proyecto Final y Proyecto IA?"
+→ DOCUMENTACION_PROYECTOS.md (sección Comparación de Arquitecturas)
+
+"¿Cuáles fueron los prompts usados para generar la versión IA?"
+→ PROMPTS_GENERACION_IA.txt (secciones Prompt Principal, Secundario, Terciario)
+
+"¿Qué funcionalidades tiene el sistema?"
+→ ENTREGA_FINAL.txt (sección 📚 FUNCIONALIDADES IMPLEMENTADAS)
+
+"¿Cómo está organizado el código del Proyecto Final?"
+→ DOCUMENTACION_PROYECTOS.md (sección Proyecto Final - Arquitectura)
+
+"¿Qué archivos de datos necesito?"
+→ GUIA_RAPIDA.txt (sección 📁 ARCHIVOS DE DATOS)
+
+"¿Tengo un error, qué hago?"
+→ GUIA_RAPIDA.txt (sección ❓ SOLUCIÓN DE PROBLEMAS)
+
+"¿Cuál es el estado final del proyecto?"
+→ ENTREGA_FINAL.txt (sección Estado Final)
+
+"¿Se cumplieron todos los requisitos?"
+→ ENTREGA_FINAL.txt (sección 🎯 REQUISITOS DE LA RÚBRICA)
+
+════════════════════════════════════════════════════════════════════════════════
+
+📊 RESUMEN DE CONTENIDOS:
+════════════════════════════════════════════════════════════════════════════════
+
+ENTREGA_FINAL.txt
+  ├─ Proyectos completados: 2
+  ├─ Funcionalidades implementadas: TODAS
+  ├─ Estado de compilación: ✅ EXITOSA
+  ├─ Estado de ejecución: ✅ OPERATIVA
+  ├─ Documentación: COMPLETA
+  ├─ Commits en Git: 25+
+  └─ Status: 100% COMPLETADO
+
+DOCUMENTACION_PROYECTOS.md
+  ├─ Descripción: 
+  │   └─ Análisis profundo de arquitectura
+  ├─ Proyecto Final:
+  │   ├─ Estructura en capas
+  │   ├─ 10+ archivos .cs
+  │   └─ ~1500 líneas código
+  ├─ Proyecto IA:
+  │   ├─ Consolidado en 1 archivo
+  │   ├─ 1200+ líneas código
+  │   └─ Generado por IA
+  └─ Comparación completa
+
+PROMPTS_GENERACION_IA.txt
+  ├─ Prompt Principal: 
+  │   └─ Generación del código base
+  ├─ Prompt Secundario:
+  │   └─ Ajustes y mejoras
+  ├─ Prompt Terciario:
+  │   └─ Integración y ejecución
+  └─ Lecciones aprendidas
+
+GUIA_RAPIDA.txt
+  ├─ Ejecución Proyecto Final
+  ├─ Ejecución Proyecto IA
+  ├─ Solución de problemas
+  ├─ Archivos de datos
+  └─ Checklist de verificación
+
+════════════════════════════════════════════════════════════════════════════════
+
+🔗 NAVEGACIÓN CRUZADA:
+════════════════════════════════════════════════════════════════════════════════
+
+Si estás en...              Y quieres saber...           Ve a...
+─────────────────────────────────────────────────────────────────────────────
+ENTREGA_FINAL.txt           Detalles técnicos        → DOCUMENTACION_PROYECTOS.md
+DOCUMENTACION_PROYECTOS.md  Cómo ejecutar            → GUIA_RAPIDA.txt
+GUIA_RAPIDA.txt             Prompts usados           → PROMPTS_GENERACION_IA.txt
+PROMPTS_GENERACION_IA.txt   Código del proyecto      → Proyecto_final/ o Proyecto_IA/
+Proyecto_final/             Alternativa IA           → Proyecto_IA/
+Proyecto_IA/                Alternativa Manual       → Proyecto_final/
+Cualquiera                  Resumen general          → ENTREGA_FINAL.txt
+
+════════════════════════════════════════════════════════════════════════════════
+
+✅ CHECKLIST DE DOCUMENTACIÓN:
+════════════════════════════════════════════════════════════════════════════════
+
+□ INDEX.txt                    - Este archivo con navegación
+□ ENTREGA_FINAL.txt            - Resumen ejecutivo y estado final
+□ DOCUMENTACION_PROYECTOS.md   - Documentación técnica completa
+□ PROMPTS_GENERACION_IA.txt    - Prompts y proceso IA
+□ GUIA_RAPIDA.txt              - Referencia rápida de ejecución
+□ README.md                    - Información general
+□ README_ESTRUCTURA.md         - Detalles de estructura
+□ Proyecto_final/README.md     - Documentación del proyecto manual (si existe)
+□ Proyecto_IA/README.md        - Documentación del proyecto IA
+
+════════════════════════════════════════════════════════════════════════════════
+
+🎯 ESTRUCTURA DE DIRECTORIOS COMPLETA:
+════════════════════════════════════════════════════════════════════════════════
+
+Proyecto_final/
+├── INDEX.txt ............................ Este archivo
+├── ENTREGA_FINAL.txt ................... Resumen final
+├── DOCUMENTACION_PROYECTOS.md .......... Documentación técnica
+├── PROMPTS_GENERACION_IA.txt .......... Prompts utilizados
+├── GUIA_RAPIDA.txt .................... Referencia rápida
+├── README.md ........................... README principal
+├── README_ESTRUCTURA.md ............... Estructura del repo
+│
+├── Proyecto_final/
+│   ├── Models/
+│   ├── Services/
+│   ├── Data/
+│   ├── UI/
+│   ├── Utilidades/
+│   ├── Data_Files/
+│   ├── Program.cs
+│   ├── Proyecto_final.csproj
+│   ├── bin/
+│   ├── obj/
+│   └── .vs/
+│
+├── Proyecto_IA/
+│   ├── codigo_generado.cs
+│   ├── Program.cs
+│   ├── BibliotecaUniversitariaIA.csproj
+│   ├── Data/
+│   │   ├── libros.csv
+│   │   ├── usuarios.txt
+│   │   └── prestamos.txt
+│   ├── README.md
+│   ├── .gitignore
+│   ├── bin/
+│   ├── obj/
+│   └── .vs/
+│
+├── .git/ ................................ Control de versiones Git
+└── .gitignore ........................... Configuración de exclusiones Git
+
+════════════════════════════════════════════════════════════════════════════════
+
+📞 INFORMACIÓN DEL DESARROLLADOR:
+════════════════════════════════════════════════════════════════════════════════
+
+Nombre:           Kevin Isaac Figueroa Calderón
+Carné:            FC260104
+GitHub:           https://github.com/kevin-figueroa10
+Repositorio:      https://github.com/kevin-figueroa10/DesafioFinal_FC260104
+Email (GitHub):   Disponible en perfil público
+
+════════════════════════════════════════════════════════════════════════════════
+
+⏰ INFORMACIÓN DE FECHAS:
+════════════════════════════════════════════════════════════════════════════════
+
+Creación del repositorio:  2025
+Última actualización:      25/05/2026
+Versión actual:           1.0
+Status:                   ✅ COMPLETO Y OPERATIVO
+
+════════════════════════════════════════════════════════════════════════════════
+
+💡 TIPS ÚTILES:
+════════════════════════════════════════════════════════════════════════════════
+
+1. INICIO RÁPIDO:
+   Lee ENTREGA_FINAL.txt para un resumen de 2 minutos
+
+2. EJECUCIÓN INMEDIATA:
+   Ve a GUIA_RAPIDA.txt → sección "EJECUTAR PROYECTO"
+
+3. APRENDER SOBRE IA:
+   Lee PROMPTS_GENERACION_IA.txt para entender cómo se generó el código
+
+4. COMPARACIÓN TÉCNICA:
+   Lee DOCUMENTACION_PROYECTOS.md → sección "Comparación de Arquitecturas"
+
+5. TROUBLESHOOTING:
+   Si algo no funciona, ve a GUIA_RAPIDA.txt → sección "SOLUCIÓN DE PROBLEMAS"
+
+════════════════════════════════════════════════════════════════════════════════
+
+Última revisión: 2025
+Versión de documento: 1.0
+
+════════════════════════════════════════════════════════════════════════════════
