@@ -1,8 +1,8 @@
 # Sistema Integral de Gestión de Biblioteca Universitaria
 
 ## Información del Estudiante
-- **Carné**: CM210345 / BH160107 (actualiza con tus datos)
-- **Nombre Completo**: [Ingresa tu nombre aquí]
+- **Carné**: FC260104
+- **Nombre Completo**: Kevin Isaac Figueroa Calderón
 
 ## Descripción del Proyecto
 Sistema de gestión de biblioteca universitaria desarrollado en C# con .NET 10. Permite administrar libros, usuarios y préstamos con validaciones completas y persistencia de datos en archivos.
@@ -90,7 +90,8 @@ El sistema incluye datos precargados para demostración:
 - 7 préstamos históricos
 
 ## Video Demostrativo
-[Incluir enlace al video demostrativo aquí]
+[Enlace al video demostrativo: https://youtu.be/tu-video-aqui]
+*Nota: Actualiza el enlace con el URL de tu video demostrativo en YouTube*
 
 ## Notas Adicionales
 - Todos los datos se persisten en archivos en la carpeta `Data/`
